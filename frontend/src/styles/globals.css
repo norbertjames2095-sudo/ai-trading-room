@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark-bg text-white;
+}
+
+.trading-card {
+  @apply bg-dark-card border border-dark-border rounded-lg p-6;
+}
+
+.trading-button {
+  @apply px-4 py-2 rounded-lg font-semibold transition-colors;
+}
+
+.trading-button-primary {
+  @apply trading-button bg-blue-600 hover:bg-blue-700;
+}
+
+.trading-button-danger {
+  @apply trading-button bg-red-600 hover:bg-red-700;
+}
+
+.trading-button-success {
+  @apply trading-button bg-green-600 hover:bg-green-700;
+}
